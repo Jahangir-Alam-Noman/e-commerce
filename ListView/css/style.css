@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css?family=Amaranth|Anton|Open+Sans|Patrick+Hand|Ubuntu");
+/*navbar 1 starts*/
+.navbar {
+  border-radius: 0;
+  min-height: 35px;
+  margin-bottom: 0;
+}
+
+.navbar-right {
+  margin-right: 50px;
+}
+
+.navbar-brand {
+  font-size: 12px;
+  padding-left: 100px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #18d96e;
+}
+
+.navbar-inverse {
+  background-color: #484848;
+  border-color: #484848;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: #18d96e;
+  border-radius: 4px;
+}
+
+/*navbar 2 starts*/
+.navbar2 {
+  min-height: 90px;
+  color: black;
+  box-shadow: 0px 0px 15px gray;
+}
+
+.navber2font {
+  padding-top: 20px;
+  margin-right: 50px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #18d96e;
+  border-radius: 4px;
+}
+
+.bar {
+  border-right: 2px solid black;
+  padding-right: 20px;
+}
+
+.fa-shopping-cart {
+  color: #18d96e;
+}
+
+/*Breadcrum  starts*/
+#breadCrum {
+  padding-top: 43px;
+}
+#breadCrum .breadcrumb {
+  background-color: white;
+  border-bottom: 2px solid #f3f3f3;
+}
+#breadCrum .breadcrumb a {
+  text-decoration: none;
+}
+#breadCrum .text1 {
+  color: #ffc13a;
+}
+
+/*winter part starts*/
+#winter {
+  padding-top: 30px;
+}
+#winter .overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/banner2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px;
+  color: #ffffff;
+  background-size: cover;
+  padding-top: 150px;
+}
+#winter .h1 {
+  color: black;
+  font-size: 50px;
+  font-family: 'Patrick Hand', cursive;
+}
+#winter .collection {
+  margin-left: 60px;
+  color: black;
+  font-size: 22px;
+}
+#winter .custom {
+  bottom: 70px;
+}
+#winter h1 {
+  text-align: center;
+}
+#winter h1::after {
+  display: block;
+  height: 3px;
+  font-weight: bold;
+  background-color: #000000;
+  content: " ";
+  width: 40px;
+  margin-left: 90px;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
+#winter .premium {
+  margin-left: 35px;
+  color: black;
+}
+
+/*category part starts*/
+#category {
+  padding-top: 50px;
+  /*************************************
+  1. SIDEBAR-WIDGET-1 CSS
+**************************************/
+  /*************************************
+    1. GENERIC CSS
+  **************************************/
+}
+#category .custom3 {
+  margin-left: 35px;
+}
+#category .sidebar-widget-1 .list-group-item {
+  padding: 15px;
+}
+#category .list-group-hover .list-group-item:hover {
+  background-color: #9cc2dc;
+  color: #fff;
+  transition: all 0.5s ease-out;
+}
+#category .sidebar-widget-1 i {
+  margin-right: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#category .list-group-item.bg-active {
+  background: #9cc2dc;
+  color: #fff;
+}
+#category * {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+/*service2 start*/
+#service2 {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #18d96e;
+  padding-bottom: 20px;
+}
+
+/*footer start*/
+#footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  color: #18d96e;
+}
+#footer .firstDiv {
+  position: absolute;
+  padding-top: 220px;
+  margin-left: 110px;
+}
+
+/*footer2 start*/
+#footer1 {
+  background-color: #484848;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#footer1 p {
+  color: gainsboro;
+}

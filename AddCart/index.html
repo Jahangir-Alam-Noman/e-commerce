@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        #img_01 img{border:2px solid white;}
+        .active img{border:2px solid #333 !important;}
+    </style>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+<!--navbar  1 starts-->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Default Welcome message!</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">My Account<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">WishList</a></li>
+                <li><a href="#">CheckOut</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Login</a></li>
+
+                <form class="navbar-form navbar-left">
+                    <form class="navbar-form" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search" name="q">
+                            <div class="input-group-btn">
+                                <button class="btn btn-success" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </form>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!--navbar  2 starts-->
+<nav class="navbar navbar-default navbar2">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="images/classic.png" alt=""></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav navbar-right navber2font">
+                <li class="dropdown">
+                    <a href="../home/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strong>HOME</strong><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../home/index.html">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li><a href="../GridView/index.html"><strong>PRODUCTS</strong><span class="sr-only">(current)</span></a></li>
+                <li><a href="../ListView/index.html"><strong>MEN </strong></a></li>
+                <li><a href="../AddCart/index.html"><strong>ADD CART</strong></a></li>
+                <li><a href="../login/index.html"><strong>LOGIN</strong></a></li>
+                <li><a href="../Singup/index.html"><strong>SIGN UP</strong></a></li>
+                <li><a href="#"><strong>CUSTOM</strong></a></li>
+                <li><a href="#"><strong>CUSTOM &nbsp;</strong>
+
+                    <i class="fa fa-gbp" aria-hidden="true"></i>&nbsp;
+                    <i class="fa fa-eur" aria-hidden="true"></i>&nbsp;
+                    <i class="fa fa-usd bar" aria-hidden="true"></i>
+                </a></li>
+                <li><a href="#"><img src="images/1.png" alt="">
+                    <img src="images/usa.png" alt="">
+                    <img src="images/3.png" alt="" class="bar">
+                </a></li>
+
+                <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <img src="images/0.png" alt=""></a></li>
+            </ul>
+
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<!--Breadcrum accounts starts-->
+<section id="breadCrum">
+    <div class="container">
+        <div class="row">
+            <ol class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="text1">Super Skinny In Tiger Camo</a></li>
+
+            </ol>
+
+        </div>
+    </div>
+</section>
+
+<!--plugin start-->
+
+<section id="plugin">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <img style="border:1px solid #e8e8e6;" id="zoom_03" src="images/small/image1.jpg"
+                     data-zoom-image="images/small/image1.jpg"
+                     width="411"  />
+
+                <div id="gallery_01" style="width:500px;float:left; ">
+
+                    <a  href="#" class="elevatezoom-gallery active" data-update="" data-image="images/small/image1.jpg"
+                        data-zoom-image="images/large/image1.jpg">
+                        <img src="images/small/image1.jpg" width="100"  /></a>
+
+                    <a  href="#" class="elevatezoom-gallery"
+                        data-image="images/small/image2.jpg"
+                        data-zoom-image="images/large/image2.jpg">
+                        <img src="images/small/image2.jpg" width="100"  /></a>
+
+                    <a href="#" class="elevatezoom-gallery"
+                       data-image="images/small/image3.jpg"
+                       data-zoom-image="images/large/image3.jpg">
+                        <img src="images/small/image3.jpg" width="100"  />
+                    </a>
+
+                    <a href="#" class="elevatezoom-gallery"
+                       data-image="images/small/image4.jpg"
+                       data-zoom-image="images/large/image4.jpg">
+                        <img src="images/small/image4.jpg" width="100"/>
+                    </a>
+
+                </div>
+
+
+
+            </div>
+            <div class="col-xs-12 col-sm-7 col-sm-offset-1 col-md-7 col-md-offset-1 col-lg-7 col-lg-offset-1">
+                <p class="h2">Super Skinny In Tiger Camo</p>
+                <p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <span class="review">Review(s)</span>
+                    Add your Review
+                </p>
+                <p class="h2">$299.00</p>
+                <p class="availibily">availability: <b>In Stock</b></p><br><br>
+                <p class="text">Lorem ipsum dolor sit  Lorem ipsum dolor sit amet.amet, consectetur adipisicing elit. Ab accusantium asperiores at hic magni porro quia sit vel vitae voluptas.</p>
+                <p>
+                <div class="text1">Qty:</div>
+                <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+                <a class="btn btn-default button" href="#" role="button">Add to Cart</a><br>
+                </p>
+
+                <p class="icon">
+
+                    <a href="#"> <i class="fa fa-facebook-official" aria-hidden="true"></i>         </a>
+                    <a href="#">  <i class="fa fa-twitter" aria-hidden="true"></i>         </a>
+                    <a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i>         </a>
+                    <a href="#">  <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#">       <i class="fa fa-pinterest" aria-hidden="true"></i></a>
+
+
+
+
+
+                </p>
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+</section>
+
+<!--Description part start-->
+<section id="description">
+    <div class="container">
+        <div class="row custom1">
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 customRow2">
+                <p>DESCRIPTION</p>
+            </div>
+
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 customRow">
+                ADDITIONAL INFORMATION
+            </div>
+
+            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 customRow">
+                PRODUCT TAGS
+
+            </div>
+
+        </div>
+        <div class="row custom3">
+            <p>Lorem ipsum dolor sit amet,  est eveniet neque, nihil optio quaerat reiciendis, unde veritatis! Cupiditate, distinctio dolor earum eum expedita soluta. Lorem ipsum dolor sit amet. Natus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dignissimos magnam nemo praesentium voluptatem. Ab corporis natus nulla sapiente velit. A alias aliquam aliquid atque consequuntur, exercitationem, explicabo iste maiores nemo nisi rerum velit voluptas.</p>
+            <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque cumque deleniti dignissimos dolorum ex fugit, harum illum ipsam ipsum iste iusto laborum molestiae nemo nisi pariatur perspiciatis quia quisquam ratione repudiandae sapiente, sunt, voluptates voluptatum. Ab quidem, totam? Ab amet architecto, blanditiis dolore dolores earum eius excepturi exercitationem fuga harum hic inventore libero, maiores nesciunt qui, quia quibusdam ratione recusandae sint voluptate! A aperiam commodi dolorum est laboriosam laborum laudantium libero magnam natus nisi perspiciatis provident quo repudiandae similique sunt tenetur, totam. Asperiores culpa doloremque eos ex officia quasi rem repudiandae vitae voluptatibus. Aliquam asperiores, assumenda blanditiis debitis delectus dolorum eius eos fugit hic laboriosam laborum officia perferendis quisquam quod sequi velit veniam, voluptates. Cumque, libero sed. Atque exercitationem id libero nihil quae qui, veritatis? Ad alias amet aspernatur aut, autem consequuntur dolor dolorem doloribus eaque eos et fugit id iure iusto neque nihil quasi saepe soluta temporibus veniam voluptas voluptate voluptates. Asperiores, assumenda dolorem esse eveniet, fugit magnam maxime neque perspiciatis possimus praesentium provident quaerat repudiandae tenetur veritatis voluptas! Assumenda atque cupiditate, dolore doloremque id sequi sint tempora voluptates. Accusantium beatae doloremque error excepturi fuga, illo maxime odit officiis reiciendis sapiente! Architecto consequuntur illum omnis qui, rem repellat?</p>
+        </div>
+    </div>
+</section>
+
+<!--service2 part-->
+<section id="service2">
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
+</section>
+
+
+<!--footer1 start-->
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <p class="h3"><strong>SERVICES FOR YOU</strong></p>
+                <p><i class="fa fa-play" aria-hidden="true"></i>&nbsp;Order Status</p>
+                <p><i class="fa fa-play" aria-hidden="true"></i>&nbsp;Payment Methods</p>
+                <p><i class="fa fa-play" aria-hidden="true"></i>&nbsp;Dalivery & Returns</p>
+                <p><i class="fa fa-play" aria-hidden="true"></i>&nbsp;Privacy Policy</p>
+                <p><i class="fa fa-play" aria-hidden="true"></i>&nbsp;Term & Conditions</p>
+
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <p class="h3"><strong>ACCOUNT INFO</strong></p>
+                <p><i class="fa fa-play" aria-hidden="true"></i>&nbsp;My Account</p>
+                <p><i class="fa fa-play" aria-hidden="true"></i>&nbsp;Order History</p>
+                <p><i class="fa fa-play" aria-hidden="true"></i>&nbsp;Wish List</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <p class="h3 text-center"><strong>OUR HISTORY</strong></p>
+                <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor  dolor sit amet, consectetur adipisicing elit. Magni necessitatibus nulla porro quia sapiente unde.  consectetur adipisicing elit. A aliquid hic maiores modi quae, qui quia similique sit tempora vero! A asperiores dicta dignissimos excepturi iste minima non. Beatae enim laboriosam nihil. Alias architecto, dolor excepturi explicabo facere fuga impedit iusto non obcaecati optio porro, repellendus rerum sequi velit voluptatem. consectetur adipisicing elit. Commodi consequuntur doloribus ducimus exercitationem fugiat minima molestias, nulla optio, praesentium quia repudiandae sed sequi similique. Autem blanditiis dicta fuga maxime molestiae, mollitia nemo officia quo reiciendis? Aliquam dolores doloribus, eveniet expedita facilis id laudantium molestias nesciunt praesentium quibusdam sequi soluta totam.</p>
+
+            </div>
+            <div class="firstDiv">
+                <p><a href="#"><img src="images/skill.png" alt=""></a>
+                    <a href="#"><img src="images/visa,png.png" alt=""></a>
+                    <a href="#"><img src="images/mastwercard.png" alt=""></a>
+                    <a href="#"><img src="images/skill.png" alt=""></a>
+                    <a href="#"><img src="images/((((.png" alt=""></a>
+
+                </p>
+
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!--footer2 start-->
+<section id="footer1">
+    <div class="container">
+        <div class="row">
+            <p class="text-center">&copy;Copyright 2018 by Classic.All Rights Reserved.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src='jquery-1.8.3.min.js'></script>
+<script src='jquery.elevatezoom.js'></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#zoom_03").elevateZoom({ zoomType: "inner", zoomWindowFadeIn: 500, zoomWindowFadeOut: 750, cursor: "crosshair", gallery:'gallery_01', galleryActiveClass: "active", imageCrossfade: true, loadingIcon: "http://www.elevateweb.co.uk/spinner.gif"});
+
+        $("#zoom_03").bind("click", function(e) {
+            var ez =   $('#zoom_03').data('elevateZoom');
+            ez.closeAll(); //NEW: This function force hides the lens, tint and window
+            $.fancybox(ez.getGalleryList());
+            return false;
+        });
+
+    });
+
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#img_01").elevateZoom({gallery:'gal1', cursor: 'pointer', galleryActiveClass: "active", imageCrossfade: true, loadingIcon: "http://www.elevateweb.co.uk/spinner.gif"});
+
+        $("#img_01").bind("click", function(e) {
+            var ez =   $('#img_01').data('elevateZoom');
+            ez.closeAll(); //NEW: This function force hides the lens, tint and window
+            $.fancybox(ez.getGalleryList());
+            return false;
+        });
+
+    });
+
+</script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

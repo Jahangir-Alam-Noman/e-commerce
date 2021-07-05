@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Anton|Open+Sans|Patrick+Hand|Ubuntu');
+/*navbar 1 starts*/
+.navbar {
+  border-radius:0;
+  min-height: 35px;
+  margin-bottom: 0;
+}
+.navbar-right{
+  margin-right: 50px;
+}
+.navbar-brand {
+  font-size: 12px;
+  padding-left: 100px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: #18d96e;
+}
+
+.navbar-inverse {
+  background-color: #484848;
+  border-color: #484848;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #fff;
+  background-color: #18d96e;
+  border-radius: 4px;
+}
+
+/*navbar 2 starts*/
+.navbar2{
+  min-height: 90px;
+  color: black;
+  box-shadow: 0px 0px 15px gray;
+}
+
+.navber2font{
+  padding-top: 20px;
+  margin-right: 50px;
+}
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  //color: #18d96e;
+  background-color: #18d96e;
+  border-radius: 4px;
+}
+.bar{
+  border-right: 2px solid black;
+  padding-right: 20px;
+}
+.fa-shopping-cart{
+  color:#18d96e ;
+}
+
+/*Breadcrum  starts*/
+
+#breadCrum{
+  padding-top: 43px;
+
+  .breadcrumb {
+    margin-left: 45px;
+    background-color:white;
+    border-bottom: 2px solid #f3f3f3;
+    a{
+      text-decoration: none;
+    }
+  }
+  .text1{
+    color: #ffc13a;
+  }
+}
+
+
+
+/*category part starts*/
+
+#category{
+  padding-top: 50px;
+  .custom3{
+    margin-left: 35px;
+    padding-top: 8px;
+  }
+
+  /*************************************
+  1. SIDEBAR-WIDGET-1 CSS
+**************************************/
+  .sidebar-widget-1 .list-group-item {padding:15px;}
+  .list-group-hover .list-group-item:hover {
+    background-color: #9cc2dc ;color:#fff;transition: all 0.5s ease-out;}
+  .sidebar-widget-1 i {margin-right:15px;font-size:18px;font-weight:600;}
+  .list-group-item.bg-active {background:#9cc2dc ;color:#fff; }
+
+  /*************************************
+    1. GENERIC CSS
+  **************************************/
+  * {-webkit-border-radius: 0 !important;-moz-border-radius: 0 !important; border-radius: 0 !important;}
+
+
+
+
+
+}
+
+
+/*service2 start*/
+#service2{
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #18d96e;
+  padding-bottom: 20px;
+}
+
+/*footer start*/
+#footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  color:#18d96e ;
+
+  .firstDiv{
+    position: absolute;
+    padding-top: 220px;
+    margin-left: 110px;
+  }
+}
+/*footer2 start*/
+#footer1{
+  background-color: #484848;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  p{
+    color:gainsboro;
+  }
+}
